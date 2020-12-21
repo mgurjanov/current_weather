@@ -1,0 +1,4 @@
+administer current_weather configuration:
+  title: 'Configure Current Weather module'
+  description: 'Custom permission for Current Weather module configuration.'
+  restrict access: TRUE

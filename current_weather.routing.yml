@@ -1,0 +1,19 @@
+current_weather.admin_settings_form:
+  path: '/admin/config/services/current_weather'
+  defaults:
+    _form: '\Drupal\current_weather\Form\CurrentWeatherConfigForm'
+    _title: 'Configure Current Weather'
+  requirements:
+    _permission: 'administer current_weather configuration'
+  options:
+    _admin_route: TRUE
+current_weather.service_results:
+  path: '/weather/{city_name}/{country_code}'
+#  path: '/weather'
+  defaults:
+    _controller: '\Drupal\current_weather\Controller\CurrentWeatherController::currentWeatherShowResultsPage'
+    _title: 'Current weather results'
+    city_name: ''
+    country_code: ''
+  requirements:
+    _permission: 'access content'

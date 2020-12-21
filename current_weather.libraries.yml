@@ -1,0 +1,5 @@
+weather-widget:
+  version: 1.x
+  css:
+    theme:
+      css/weather-widget.css: {}

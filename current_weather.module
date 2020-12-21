@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Contains Current Weather main module functionality.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function current_weather_theme() {
+  return [
+    'current_weather_results' => [
+      'template' => 'current-weather-results',
+      'variables' => ['current_weather_results' => []],
+    ],
+  ];
+}

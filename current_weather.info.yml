@@ -1,0 +1,6 @@
+name: Current Weather
+description: Enables retrieval of current weather data from Openweathermap.org
+package: Custom
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9

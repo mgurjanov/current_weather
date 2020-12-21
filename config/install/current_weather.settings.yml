@@ -1,0 +1,4 @@
+city_name: 'Warsaw'
+country_code: PL
+api_endpoint: http://api.openweathermap.org/data/2.5/weather
+api_key: be306854c8951ab7c36943603da82b4d
